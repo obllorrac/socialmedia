@@ -15,21 +15,19 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 15px;
     }
-    .profile {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      overflow: hidden;
-      float: left;
+    .header {
+      position: relative;
     }
-    .profile img {
+    .header img {
       width: 100%;
       height: auto;
     }
     .content {
-      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
     }
     .title {
       font-weight: bold;
@@ -46,23 +44,24 @@
     }
     .follow-button {
       display: inline-block;
-      float: right;
-      margin-top: 35px;
+      vertical-align: top;
     }
   </style>
 </head>
 <body>
-  <div class="profile">
-    <img src="https://i.imgur.com/DL1RFrQ.png" alt="Profile photo" />
-  </div>
-  <div class="follow-button">
-    <a href="https://twitter.com/obllorrac?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @obllorrac</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <div class="header">
+    <img src="https://i.imgur.com/DL1RFrQ.png" alt="Header photo" />
   </div>
   <div class="content">
-    <div class="title">Ben Carroll</div>
-    <a href="https://twitter.com/obllorrac" class="handle">@obllorrac</a>
-    <p class="description">Healthcare leader on a mission 🚀 | Tweeting strategies & solutions 📝 | Empowering teams 💪 | Join the conversation 🗨️</p>
+    <div>
+      <div class="title">Ben Carroll</div>
+      <a href="https://twitter.com/obllorrac" class="handle">@obllorrac</a>
+      <p class="description">Healthcare leader on a mission 🚀 | Tweeting strategies & solutions 📝 | Empowering teams 💪 | Join the conversation 🗨️</p>
+    </div>
+    <div class="follow-button">
+      <a href="https://twitter.com/obllorrac?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @obllorrac</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
   </div>
 </body>
 </html>
