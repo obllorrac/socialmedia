@@ -1,63 +1,81 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Ben Carroll Twitter Card</title>
-	<meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@obllorrac">
-    <meta name="twitter:creator" content="@obllorrac">
-    <meta name="twitter:title" content="Ben Carroll">
-    <meta name="twitter:description" content="Healthcare leader on a mission 🚀 | Tweeting strategies & solutions 📝 | Empowering teams 💪 | Join the conversation 🗨️">
-    <meta name="twitter:image" content="https://i.imgur.com/cEoNbi4.jpg">
-	<link rel="stylesheet" href="css/estilos.css">
-	<link href='https://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
-	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+  <title>Ben Carroll</title>
+
+  <!-- Add Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@obllorrac">
+  <meta name="twitter:creator" content="@obllorrac">
+  <meta name="twitter:title" content="Ben Carroll">
+  <meta name="twitter:description" content="Healthcare leader on a mission 🚀 | Tweeting strategies & solutions 📝 | Empowering teams 💪 | Join the conversation 🗨️">
+  <meta name="twitter:image" content="https://i.imgur.com/cEoNbi4.jpg">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .header {
+      position: relative;
+    }
+    .header img {
+      width: 100%;
+      height: auto;
+    }
+    .profile {
+      position: absolute;
+      left: 15px;
+      bottom: -50%;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .profile img {
+      width: 100%;
+      height: auto;
+    }
+    .content {
+      padding: 60px 15px 15px;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+    .handle {
+      color: #1da1f2;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+    .description {
+      margin-bottom: 15px;
+    }
+    .follow-button {
+      position: absolute;
+      right: 15px;
+      bottom: 0;
+    }
+  </style>
 </head>
 <body>
-
-	<div class="container">
-		<header>
-			<div class="bio">
-        <img src="https://i.imgur.com/mxIhxTF.jpg" alt="background" class="bg">
-				<div class="desc">
-					<h3>@obllorrac</h3>
-					<p>Healthcare leader on a mission 🚀 | Tweeting strategies & solutions 📝 | Empowering teams 💪 | Join the conversation 🗨️</p>
-				</div>
-			</div>
-			
-			<div class="avatarcontainer">
-				<img src="https://i.imgur.com/cEoNbi4.jpg" alt="avatar" class="avatar">
-				<div class="hover">
-						<div class="icon-twitter"></div>
-				</div>
-			</div>
-
-		</header>
-
-		<div class="content">
-			<div class="data">
-				<ul>
-					<li>
-						2,934
-						<span>Tweets</span>
-					</li>
-					<li>
-						1,119
-						<span>Followers</span>
-					</li>
-					<li>
-						530
-						<span>Following</span>
-					</li>
-				</ul>
-			</div>
-
-			<div class="follow"> <div class="icon-twitter"></div> Follow</div>
-		</div>
-
-	</div>
-	
+  <div class="header">
+    <img src="https://i.imgur.com/mxIhxTF.jpg" alt="Header photo" />
+    <div class="profile">
+      <img src="https://i.imgur.com/cEoNbi4.jpg" alt="Profile photo" />
+    </div>
+  </div>
+  <div class="content">
+    <div class="title">Ben Carroll</div>
+    <a href="https://twitter.com/obllorrac" class="handle">@obllorrac</a>
+    <p class="description">Healthcare leader on a mission 🚀 | Tweeting strategies & solutions 📝 | Empowering teams 💪 | Join the conversation 🗨️</p>
+    <div class="follow-button">
+      <a href="https://twitter.com/obllorrac?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @obllorrac</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
 </body>
 </html>
+
 
